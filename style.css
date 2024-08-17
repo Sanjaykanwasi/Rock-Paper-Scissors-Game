@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #427aa1;
+}
+
+/* Heading */
+h1 {
+  background-color: #47682c;
+  color: black;
+  height: 7rem;
+  line-height: 7rem;
+}
+
+/* Main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+/* Choice Box */
+.choice {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover Effect */
+.choice:hover {
+  opacity: 5;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ef3054;
+}
+
+/* Images */
+img {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Score Board */
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+#user,
+#computer {
+  font-size: 4rem;
+}
+
+/* Message Box */
+.msg-box {
+  margin-top: 5rem;
+}
+
+#msg {
+  background-color: #1b2f33;
+  color: white;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+/* Reset Box */
+.reset-box {
+  margin-top: 3rem;
+}
+
+button {
+  font-size: 2rem;
+  background-color: #8c7051;
+  color: white;
+  padding: 1rem;
+  display: inline;
+  border-radius: 1rem;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Footer */
+#sanjay {
+  font-size: 1.5rem;
+  margin-top: 11rem;
+  font-weight: bolder;
+}
